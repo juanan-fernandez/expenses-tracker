@@ -1,7 +1,7 @@
 import ExpenseItem from '../ExpenseItem/ExpenseItem';
 import './Expenses.css';
 import data from '../../data/expensesData';
-import Card from '../Card/Card';
+import Card from '../UI/Card/Card';
 
 export default function Expenses() {
 	return (

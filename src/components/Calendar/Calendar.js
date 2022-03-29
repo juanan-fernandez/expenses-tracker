@@ -1,4 +1,4 @@
-import './Calender.css';
+import './Calendar.css';
 
 export default function Calendar({ date }) {
 	const month = date.toLocaleDateString('es-ES', { month: 'long' });

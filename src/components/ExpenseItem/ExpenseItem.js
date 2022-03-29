@@ -1,5 +1,5 @@
-import Card from '../Card/Card';
-import Calendar from '../Calender/Calender';
+import Card from '../UI/Card/Card';
+import Calendar from '../Calendar/Calendar';
 import './ExpenseItem.css';
 
 export default function ExpenseItem({ expense }) {
