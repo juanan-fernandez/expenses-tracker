@@ -6,6 +6,7 @@ export default function ExpensesChart({ expenses }) {
 		{ label: 'Feb', amount: 0 },
 		{ label: 'Mar', amount: 0 },
 		{ label: 'Apr', amount: 0 },
+		{ label: 'May', amount: 0 },
 		{ label: 'Jun', amount: 0 },
 		{ label: 'Jul', amount: 0 },
 		{ label: 'Aug', amount: 0 },
