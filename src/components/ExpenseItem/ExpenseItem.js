@@ -5,7 +5,7 @@ import './ExpenseItem.css';
 export default function ExpenseItem({ expense }) {
 	return (
 		<Card className='expense-item'>
-			<Calendar date={expense.date} />
+			<Calendar date={expense.fecha} />
 			<div className='expense-item__description'>
 				<h2>{expense.title}</h2>
 				<div className='expense-item__price'>{Number(expense.amount).toFixed(2)} EUR</div>
