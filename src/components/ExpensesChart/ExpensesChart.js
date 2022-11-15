@@ -16,7 +16,6 @@ export default function ExpensesChart({ expenses }) {
 		{ label: 'Dec', amount: 0 },
 	];
 
-	console.log(expenses);
 	for (const item of expenses) {
 		const expenseMonth = item.fecha.getMonth(); //el mes me devuelve la posición en el array 0=Jan, 11=Dec
 		chart[expenseMonth].amount += item.amount;
